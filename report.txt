@@ -1,0 +1,646 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+ no time accumulated
+
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  Ts/call  Ts/call  name    
+  0.00      0.00     0.00   182079     0.00     0.00  Carta::getNumero()
+  0.00      0.00     0.00      630     0.00     0.00  Carta::getNaipe()
+  0.00      0.00     0.00      565     0.00     0.00  Carta::Carta()
+  0.00      0.00     0.00      396     0.00     0.00  std::remove_reference<Carta&>::type&& std::move<Carta&>(Carta&)
+  0.00      0.00     0.00      197     0.00     0.00  Mao::onePair()
+  0.00      0.00     0.00      165     0.00     0.00  Mao::flush()
+  0.00      0.00     0.00      160     0.00     0.00  Jogador::getNome[abi:cxx11]()
+  0.00      0.00     0.00      160     0.00     0.00  Jogador::getValor()
+  0.00      0.00     0.00      142     0.00     0.00  Mao::straight()
+  0.00      0.00     0.00      133     0.00     0.00  Mao::threeOfAKind()
+  0.00      0.00     0.00      132     0.00     0.00  std::enable_if<std::__and_<std::__not_<std::__is_tuple_like<Carta> >, std::is_move_constructible<Carta>, std::is_move_assignable<Carta> >::value, void>::type std::swap<Carta>(Carta&, Carta&)
+  0.00      0.00     0.00      125     0.00     0.00  Carta::Carta(int, char)
+  0.00      0.00     0.00      115     0.00     0.00  __gnu_cxx::__enable_if<std::__is_char<char>::__value, bool>::__type std::operator==<char>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+  0.00      0.00     0.00       83     0.00     0.00  Jogador::~Jogador()
+  0.00      0.00     0.00       78     0.00     0.00  Mao::tipoJogada()
+  0.00      0.00     0.00       78     0.00     0.00  Mao::fourOfAKind()
+  0.00      0.00     0.00       78     0.00     0.00  Mao::straightFlush()
+  0.00      0.00     0.00       78     0.00     0.00  Mao::royalStraightFlush()
+  0.00      0.00     0.00       78     0.00     0.00  Mao::fullHouse()
+  0.00      0.00     0.00       78     0.00     0.00  Jogador::getMao()
+  0.00      0.00     0.00       64     0.00     0.00  Jogador::setValor(int)
+  0.00      0.00     0.00       63     0.00     0.00  Mao::Mao()
+  0.00      0.00     0.00       61     0.00     0.00  std::char_traits<char>::compare(char const*, char const*, unsigned long)
+  0.00      0.00     0.00       60     0.00     0.00  std::remove_reference<Jogador&>::type&& std::move<Jogador&>(Jogador&)
+  0.00      0.00     0.00       58     0.00     0.00  Jogador::Jogador()
+  0.00      0.00     0.00       57     0.00     0.00  Jogador::setAposta(int)
+  0.00      0.00     0.00       55     0.00     0.00  Mao::twoPairs()
+  0.00      0.00     0.00       44     0.00     0.00  Jogador::operator=(Jogador const&)
+  0.00      0.00     0.00       40     0.00     0.00  Jogador::operator=(Jogador&&)
+  0.00      0.00     0.00       36     0.00     0.00  std::remove_reference<int&>::type&& std::move<int&>(int&)
+  0.00      0.00     0.00       28     0.00     0.00  Jogador::getAposta()
+  0.00      0.00     0.00       25     0.00     0.00  Mao::OrdenaMao()
+  0.00      0.00     0.00       25     0.00     0.00  Mao::Mao(Carta*)
+  0.00      0.00     0.00       25     0.00     0.00  Jogador::getBlefes()
+  0.00      0.00     0.00       20     0.00     0.00  Jogador::Jogador(Jogador&&)
+  0.00      0.00     0.00       20     0.00     0.00  std::enable_if<std::__and_<std::__not_<std::__is_tuple_like<Jogador> >, std::is_move_constructible<Jogador>, std::is_move_assignable<Jogador> >::value, void>::type std::swap<Jogador>(Jogador&, Jogador&)
+  0.00      0.00     0.00       17     0.00     0.00  Jogador::setMao(Mao)
+  0.00      0.00     0.00       12     0.00     0.00  bool __gnu_cxx::__is_null_pointer<char const>(char const*)
+  0.00      0.00     0.00       12     0.00     0.00  std::char_traits<char>::length(char const*)
+  0.00      0.00     0.00       12     0.00     0.00  void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*)
+  0.00      0.00     0.00       12     0.00     0.00  void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag)
+  0.00      0.00     0.00       12     0.00     0.00  void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct_aux<char const*>(char const*, char const*, std::__false_type)
+  0.00      0.00     0.00       12     0.00     0.00  std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<std::allocator<char> >(char const*, std::allocator<char> const&)
+  0.00      0.00     0.00       12     0.00     0.00  std::iterator_traits<char const*>::difference_type std::__distance<char const*>(char const*, char const*, std::random_access_iterator_tag)
+  0.00      0.00     0.00       12     0.00     0.00  std::iterator_traits<char const*>::iterator_category std::__iterator_category<char const*>(char const* const&)
+  0.00      0.00     0.00       12     0.00     0.00  std::enable_if<std::__and_<std::__not_<std::__is_tuple_like<int> >, std::is_move_constructible<int>, std::is_move_assignable<int> >::value, void>::type std::swap<int>(int&, int&)
+  0.00      0.00     0.00       12     0.00     0.00  std::iterator_traits<char const*>::difference_type std::distance<char const*>(char const*, char const*)
+  0.00      0.00     0.00       10     0.00     0.00  Jogador::setBlefes(int)
+  0.00      0.00     0.00        9     0.00     0.00  Poquer::GetMaiorAposta(int*, int)
+  0.00      0.00     0.00        7     0.00     0.00  std::remove_reference<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>::type&& std::move<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)
+  0.00      0.00     0.00        7     0.00     0.00  std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&, char const*)
+  0.00      0.00     0.00        6     0.00     0.00  Poquer::RetiraPingo(int, int, Jogador*)
+  0.00      0.00     0.00        6     0.00     0.00  Poquer::getTipoJogada[abi:cxx11](int)
+  0.00      0.00     0.00        6     0.00     0.00  Poquer::OrdenaVencedores(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, int)
+  0.00      0.00     0.00        6     0.00     0.00  Poquer::GetNumeroVencedores(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*)
+  0.00      0.00     0.00        6     0.00     0.00  Rodada::getWinners[abi:cxx11](int)
+  0.00      0.00     0.00        6     0.00     0.00  Rodada::setRodada(Jogador*, int)
+  0.00      0.00     0.00        6     0.00     0.00  Rodada::Rodada()
+  0.00      0.00     0.00        6     0.00     0.00  Rodada::~Rodada()
+  0.00      0.00     0.00        6     0.00     0.00  std::operator|(std::_Ios_Openmode, std::_Ios_Openmode)
+  0.00      0.00     0.00        5     0.00     0.00  Jogador::Jogador(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, double, Mao)
+  0.00      0.00     0.00        2     0.00     0.00  std::operator&(std::_Ios_Fmtflags, std::_Ios_Fmtflags)
+  0.00      0.00     0.00        1     0.00     0.00  _GLOBAL__sub_I__ZN3MaoC2Ev
+  0.00      0.00     0.00        1     0.00     0.00  _GLOBAL__sub_I__ZN5CartaC2Ev
+  0.00      0.00     0.00        1     0.00     0.00  _GLOBAL__sub_I__ZN6RodadaC2Ev
+  0.00      0.00     0.00        1     0.00     0.00  _GLOBAL__sub_I__ZN7JogadorC2Ev
+  0.00      0.00     0.00        1     0.00     0.00  _GLOBAL__sub_I_main
+  0.00      0.00     0.00        1     0.00     0.00  _GLOBAL__sub_I_rodada_valida
+  0.00      0.00     0.00        1     0.00     0.00  __static_initialization_and_destruction_0(int, int)
+  0.00      0.00     0.00        1     0.00     0.00  __static_initialization_and_destruction_0(int, int)
+  0.00      0.00     0.00        1     0.00     0.00  __static_initialization_and_destruction_0(int, int)
+  0.00      0.00     0.00        1     0.00     0.00  __static_initialization_and_destruction_0(int, int)
+  0.00      0.00     0.00        1     0.00     0.00  __static_initialization_and_destruction_0(int, int)
+  0.00      0.00     0.00        1     0.00     0.00  __static_initialization_and_destruction_0(int, int)
+  0.00      0.00     0.00        1     0.00     0.00  Poquer::OrdenaBlefes(Jogador*)
+  0.00      0.00     0.00        1     0.00     0.00  Poquer::IniciarPoquer()
+  0.00      0.00     0.00        1     0.00     0.00  Poquer::OrdenaJogadores(Jogador*)
+  0.00      0.00     0.00        1     0.00     0.00  Poquer::Poquer()
+  0.00      0.00     0.00        1     0.00     0.00  Poquer::~Poquer()
+  0.00      0.00     0.00        1     0.00     0.00  std::ios_base::setf(std::_Ios_Fmtflags, std::_Ios_Fmtflags)
+  0.00      0.00     0.00        1     0.00     0.00  std::setprecision(int)
+  0.00      0.00     0.00        1     0.00     0.00  std::operator&=(std::_Ios_Fmtflags&, std::_Ios_Fmtflags)
+  0.00      0.00     0.00        1     0.00     0.00  std::operator~(std::_Ios_Fmtflags)
+  0.00      0.00     0.00        1     0.00     0.00  bool std::operator><char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+  0.00      0.00     0.00        1     0.00     0.00  std::operator|=(std::_Ios_Fmtflags&, std::_Ios_Fmtflags)
+  0.00      0.00     0.00        1     0.00     0.00  std::operator|(std::_Ios_Fmtflags, std::_Ios_Fmtflags)
+
+ %         the percentage of the total running time of the
+time       program used by this function.
+
+cumulative a running sum of the number of seconds accounted
+ seconds   for by this function and those listed above it.
+
+ self      the number of seconds accounted for by this
+seconds    function alone.  This is the major sort for this
+           listing.
+
+calls      the number of times this function was invoked, if
+           this function is profiled, else blank.
+
+ self      the average number of milliseconds spent in this
+ms/call    function per call, if this function is profiled,
+	   else blank.
+
+ total     the average number of milliseconds spent in this
+ms/call    function and its descendents per call, if this
+	   function is profiled, else blank.
+
+name       the name of the function.  This is the minor sort
+           for this listing. The index shows the location of
+	   the function in the gprof listing. If the index is
+	   in parenthesis it shows where it would appear in
+	   the gprof listing if it were to be printed.
+
+Copyright (C) 2012-2020 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+		     Call graph (explanation follows)
+
+
+granularity: each sample hit covers 2 byte(s) no time propagated
+
+index % time    self  children    called     name
+                0.00    0.00      14/182079      Mao::royalStraightFlush() [25]
+                0.00    0.00     172/182079      Mao::straight() [16]
+                0.00    0.00     452/182079      Mao::twoPairs() [34]
+                0.00    0.00     797/182079      Mao::OrdenaMao() [39]
+                0.00    0.00     914/182079      Mao::tipoJogada() [22]
+                0.00    0.00    4610/182079      Mao::onePair() [12]
+                0.00    0.00   42540/182079      Mao::threeOfAKind() [17]
+                0.00    0.00  132580/182079      Mao::fourOfAKind() [23]
+[8]      0.0    0.00    0.00  182079         Carta::getNumero() [8]
+-----------------------------------------------
+                0.00    0.00     630/630         Mao::flush() [13]
+[9]      0.0    0.00    0.00     630         Carta::getNaipe() [9]
+-----------------------------------------------
+                0.00    0.00     125/565         Poquer::IniciarPoquer() [83]
+                0.00    0.00     125/565         Mao::Mao(Carta*) [40]
+                0.00    0.00     315/565         Mao::Mao() [29]
+[10]     0.0    0.00    0.00     565         Carta::Carta() [10]
+-----------------------------------------------
+                0.00    0.00     396/396         std::enable_if<std::__and_<std::__not_<std::__is_tuple_like<Carta> >, std::is_move_constructible<Carta>, std::is_move_assignable<Carta> >::value, void>::type std::swap<Carta>(Carta&, Carta&) [18]
+[11]     0.0    0.00    0.00     396         std::remove_reference<Carta&>::type&& std::move<Carta&>(Carta&) [11]
+-----------------------------------------------
+                0.00    0.00      55/197         Mao::tipoJogada() [22]
+                0.00    0.00     142/197         Mao::straight() [16]
+[12]     0.0    0.00    0.00     197         Mao::onePair() [12]
+                0.00    0.00    4610/182079      Carta::getNumero() [8]
+-----------------------------------------------
+                0.00    0.00       9/165         Mao::straightFlush() [24]
+                0.00    0.00      78/165         Mao::royalStraightFlush() [25]
+                0.00    0.00      78/165         Mao::tipoJogada() [22]
+[13]     0.0    0.00    0.00     165         Mao::flush() [13]
+                0.00    0.00     630/630         Carta::getNaipe() [9]
+-----------------------------------------------
+                0.00    0.00       7/160         Rodada::getWinners[abi:cxx11](int) [63]
+                0.00    0.00     153/160         Poquer::IniciarPoquer() [83]
+[14]     0.0    0.00    0.00     160         Jogador::getNome[abi:cxx11]() [14]
+-----------------------------------------------
+                0.00    0.00      20/160         Poquer::OrdenaJogadores(Jogador*) [84]
+                0.00    0.00      30/160         Poquer::RetiraPingo(int, int, Jogador*) [59]
+                0.00    0.00     110/160         Poquer::IniciarPoquer() [83]
+[15]     0.0    0.00    0.00     160         Jogador::getValor() [15]
+-----------------------------------------------
+                0.00    0.00      64/142         Mao::tipoJogada() [22]
+                0.00    0.00      78/142         Mao::straightFlush() [24]
+[16]     0.0    0.00    0.00     142         Mao::straight() [16]
+                0.00    0.00     172/182079      Carta::getNumero() [8]
+                0.00    0.00     142/197         Mao::onePair() [12]
+-----------------------------------------------
+                0.00    0.00      55/133         Mao::tipoJogada() [22]
+                0.00    0.00      78/133         Mao::fullHouse() [26]
+[17]     0.0    0.00    0.00     133         Mao::threeOfAKind() [17]
+                0.00    0.00   42540/182079      Carta::getNumero() [8]
+-----------------------------------------------
+                0.00    0.00     132/132         Mao::OrdenaMao() [39]
+[18]     0.0    0.00    0.00     132         std::enable_if<std::__and_<std::__not_<std::__is_tuple_like<Carta> >, std::is_move_constructible<Carta>, std::is_move_assignable<Carta> >::value, void>::type std::swap<Carta>(Carta&, Carta&) [18]
+                0.00    0.00     396/396         std::remove_reference<Carta&>::type&& std::move<Carta&>(Carta&) [11]
+-----------------------------------------------
+                0.00    0.00     125/125         Poquer::IniciarPoquer() [83]
+[19]     0.0    0.00    0.00     125         Carta::Carta(int, char) [19]
+-----------------------------------------------
+                0.00    0.00     115/115         Poquer::IniciarPoquer() [83]
+[20]     0.0    0.00    0.00     115         __gnu_cxx::__enable_if<std::__is_char<char>::__value, bool>::__type std::operator==<char>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [20]
+                0.00    0.00      61/61          std::char_traits<char>::compare(char const*, char const*, unsigned long) [30]
+-----------------------------------------------
+                0.00    0.00      15/83          Poquer::IniciarPoquer() [83]
+                0.00    0.00      20/83          std::enable_if<std::__and_<std::__not_<std::__is_tuple_like<Jogador> >, std::is_move_constructible<Jogador>, std::is_move_assignable<Jogador> >::value, void>::type std::swap<Jogador>(Jogador&, Jogador&) [43]
+                0.00    0.00      48/83          Rodada::~Rodada() [66]
+[21]     0.0    0.00    0.00      83         Jogador::~Jogador() [21]
+-----------------------------------------------
+                0.00    0.00       6/78          Poquer::IniciarPoquer() [83]
+                0.00    0.00      72/78          Rodada::getWinners[abi:cxx11](int) [63]
+[22]     0.0    0.00    0.00      78         Mao::tipoJogada() [22]
+                0.00    0.00     914/182079      Carta::getNumero() [8]
+                0.00    0.00      78/78          Mao::royalStraightFlush() [25]
+                0.00    0.00      78/78          Mao::straightFlush() [24]
+                0.00    0.00      78/78          Mao::fourOfAKind() [23]
+                0.00    0.00      78/78          Mao::fullHouse() [26]
+                0.00    0.00      78/165         Mao::flush() [13]
+                0.00    0.00      64/142         Mao::straight() [16]
+                0.00    0.00      55/133         Mao::threeOfAKind() [17]
+                0.00    0.00      55/55          Mao::twoPairs() [34]
+                0.00    0.00      55/197         Mao::onePair() [12]
+-----------------------------------------------
+                0.00    0.00      78/78          Mao::tipoJogada() [22]
+[23]     0.0    0.00    0.00      78         Mao::fourOfAKind() [23]
+                0.00    0.00  132580/182079      Carta::getNumero() [8]
+-----------------------------------------------
+                0.00    0.00      78/78          Mao::tipoJogada() [22]
+[24]     0.0    0.00    0.00      78         Mao::straightFlush() [24]
+                0.00    0.00      78/142         Mao::straight() [16]
+                0.00    0.00       9/165         Mao::flush() [13]
+-----------------------------------------------
+                0.00    0.00      78/78          Mao::tipoJogada() [22]
+[25]     0.0    0.00    0.00      78         Mao::royalStraightFlush() [25]
+                0.00    0.00      78/165         Mao::flush() [13]
+                0.00    0.00      14/182079      Carta::getNumero() [8]
+-----------------------------------------------
+                0.00    0.00      78/78          Mao::tipoJogada() [22]
+[26]     0.0    0.00    0.00      78         Mao::fullHouse() [26]
+                0.00    0.00      78/133         Mao::threeOfAKind() [17]
+-----------------------------------------------
+                0.00    0.00       6/78          Poquer::IniciarPoquer() [83]
+                0.00    0.00      72/78          Rodada::getWinners[abi:cxx11](int) [63]
+[27]     0.0    0.00    0.00      78         Jogador::getMao() [27]
+-----------------------------------------------
+                0.00    0.00      30/64          Poquer::RetiraPingo(int, int, Jogador*) [59]
+                0.00    0.00      34/64          Poquer::IniciarPoquer() [83]
+[28]     0.0    0.00    0.00      64         Jogador::setValor(int) [28]
+-----------------------------------------------
+                0.00    0.00       5/63          Jogador::Jogador(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, double, Mao) [68]
+                0.00    0.00      58/63          Jogador::Jogador() [32]
+[29]     0.0    0.00    0.00      63         Mao::Mao() [29]
+                0.00    0.00     315/565         Carta::Carta() [10]
+-----------------------------------------------
+                0.00    0.00      61/61          __gnu_cxx::__enable_if<std::__is_char<char>::__value, bool>::__type std::operator==<char>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [20]
+[30]     0.0    0.00    0.00      61         std::char_traits<char>::compare(char const*, char const*, unsigned long) [30]
+-----------------------------------------------
+                0.00    0.00      60/60          std::enable_if<std::__and_<std::__not_<std::__is_tuple_like<Jogador> >, std::is_move_constructible<Jogador>, std::is_move_assignable<Jogador> >::value, void>::type std::swap<Jogador>(Jogador&, Jogador&) [43]
+[31]     0.0    0.00    0.00      60         std::remove_reference<Jogador&>::type&& std::move<Jogador&>(Jogador&) [31]
+-----------------------------------------------
+                0.00    0.00      10/58          Poquer::IniciarPoquer() [83]
+                0.00    0.00      48/58          Rodada::Rodada() [65]
+[32]     0.0    0.00    0.00      58         Jogador::Jogador() [32]
+                0.00    0.00      58/63          Mao::Mao() [29]
+-----------------------------------------------
+                0.00    0.00      57/57          Poquer::IniciarPoquer() [83]
+[33]     0.0    0.00    0.00      57         Jogador::setAposta(int) [33]
+-----------------------------------------------
+                0.00    0.00      55/55          Mao::tipoJogada() [22]
+[34]     0.0    0.00    0.00      55         Mao::twoPairs() [34]
+                0.00    0.00     452/182079      Carta::getNumero() [8]
+-----------------------------------------------
+                0.00    0.00      17/44          Rodada::setRodada(Jogador*, int) [64]
+                0.00    0.00      27/44          Poquer::IniciarPoquer() [83]
+[35]     0.0    0.00    0.00      44         Jogador::operator=(Jogador const&) [35]
+-----------------------------------------------
+                0.00    0.00      40/40          std::enable_if<std::__and_<std::__not_<std::__is_tuple_like<Jogador> >, std::is_move_constructible<Jogador>, std::is_move_assignable<Jogador> >::value, void>::type std::swap<Jogador>(Jogador&, Jogador&) [43]
+[36]     0.0    0.00    0.00      40         Jogador::operator=(Jogador&&) [36]
+-----------------------------------------------
+                0.00    0.00      36/36          std::enable_if<std::__and_<std::__not_<std::__is_tuple_like<int> >, std::is_move_constructible<int>, std::is_move_assignable<int> >::value, void>::type std::swap<int>(int&, int&) [53]
+[37]     0.0    0.00    0.00      36         std::remove_reference<int&>::type&& std::move<int&>(int&) [37]
+-----------------------------------------------
+                0.00    0.00      28/28          Poquer::IniciarPoquer() [83]
+[38]     0.0    0.00    0.00      28         Jogador::getAposta() [38]
+-----------------------------------------------
+                0.00    0.00      25/25          Poquer::IniciarPoquer() [83]
+[39]     0.0    0.00    0.00      25         Mao::OrdenaMao() [39]
+                0.00    0.00     797/182079      Carta::getNumero() [8]
+                0.00    0.00     132/132         std::enable_if<std::__and_<std::__not_<std::__is_tuple_like<Carta> >, std::is_move_constructible<Carta>, std::is_move_assignable<Carta> >::value, void>::type std::swap<Carta>(Carta&, Carta&) [18]
+-----------------------------------------------
+                0.00    0.00      25/25          Poquer::IniciarPoquer() [83]
+[40]     0.0    0.00    0.00      25         Mao::Mao(Carta*) [40]
+                0.00    0.00     125/565         Carta::Carta() [10]
+-----------------------------------------------
+                0.00    0.00       5/25          Poquer::IniciarPoquer() [83]
+                0.00    0.00      20/25          Poquer::OrdenaBlefes(Jogador*) [82]
+[41]     0.0    0.00    0.00      25         Jogador::getBlefes() [41]
+-----------------------------------------------
+                0.00    0.00      20/20          std::enable_if<std::__and_<std::__not_<std::__is_tuple_like<Jogador> >, std::is_move_constructible<Jogador>, std::is_move_assignable<Jogador> >::value, void>::type std::swap<Jogador>(Jogador&, Jogador&) [43]
+[42]     0.0    0.00    0.00      20         Jogador::Jogador(Jogador&&) [42]
+-----------------------------------------------
+                0.00    0.00       5/20          Poquer::OrdenaBlefes(Jogador*) [82]
+                0.00    0.00       7/20          Poquer::OrdenaJogadores(Jogador*) [84]
+                0.00    0.00       8/20          Rodada::getWinners[abi:cxx11](int) [63]
+[43]     0.0    0.00    0.00      20         std::enable_if<std::__and_<std::__not_<std::__is_tuple_like<Jogador> >, std::is_move_constructible<Jogador>, std::is_move_assignable<Jogador> >::value, void>::type std::swap<Jogador>(Jogador&, Jogador&) [43]
+                0.00    0.00      60/60          std::remove_reference<Jogador&>::type&& std::move<Jogador&>(Jogador&) [31]
+                0.00    0.00      40/40          Jogador::operator=(Jogador&&) [36]
+                0.00    0.00      20/20          Jogador::Jogador(Jogador&&) [42]
+                0.00    0.00      20/83          Jogador::~Jogador() [21]
+-----------------------------------------------
+                0.00    0.00      17/17          Poquer::IniciarPoquer() [83]
+[44]     0.0    0.00    0.00      17         Jogador::setMao(Mao) [44]
+-----------------------------------------------
+                0.00    0.00      12/12          void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag) [48]
+[45]     0.0    0.00    0.00      12         bool __gnu_cxx::__is_null_pointer<char const>(char const*) [45]
+-----------------------------------------------
+                0.00    0.00      12/12          std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<std::allocator<char> >(char const*, std::allocator<char> const&) [50]
+[46]     0.0    0.00    0.00      12         std::char_traits<char>::length(char const*) [46]
+-----------------------------------------------
+                0.00    0.00      12/12          std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<std::allocator<char> >(char const*, std::allocator<char> const&) [50]
+[47]     0.0    0.00    0.00      12         void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*) [47]
+                0.00    0.00      12/12          void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct_aux<char const*>(char const*, char const*, std::__false_type) [49]
+-----------------------------------------------
+                0.00    0.00      12/12          void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct_aux<char const*>(char const*, char const*, std::__false_type) [49]
+[48]     0.0    0.00    0.00      12         void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag) [48]
+                0.00    0.00      12/12          bool __gnu_cxx::__is_null_pointer<char const>(char const*) [45]
+                0.00    0.00      12/12          std::iterator_traits<char const*>::difference_type std::distance<char const*>(char const*, char const*) [54]
+-----------------------------------------------
+                0.00    0.00      12/12          void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*) [47]
+[49]     0.0    0.00    0.00      12         void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct_aux<char const*>(char const*, char const*, std::__false_type) [49]
+                0.00    0.00      12/12          void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag) [48]
+-----------------------------------------------
+                0.00    0.00       6/12          Poquer::getTipoJogada[abi:cxx11](int) [60]
+                0.00    0.00       6/12          Rodada::getWinners[abi:cxx11](int) [63]
+[50]     0.0    0.00    0.00      12         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<std::allocator<char> >(char const*, std::allocator<char> const&) [50]
+                0.00    0.00      12/12          std::char_traits<char>::length(char const*) [46]
+                0.00    0.00      12/12          void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*) [47]
+-----------------------------------------------
+                0.00    0.00      12/12          std::iterator_traits<char const*>::difference_type std::distance<char const*>(char const*, char const*) [54]
+[51]     0.0    0.00    0.00      12         std::iterator_traits<char const*>::difference_type std::__distance<char const*>(char const*, char const*, std::random_access_iterator_tag) [51]
+-----------------------------------------------
+                0.00    0.00      12/12          std::iterator_traits<char const*>::difference_type std::distance<char const*>(char const*, char const*) [54]
+[52]     0.0    0.00    0.00      12         std::iterator_traits<char const*>::iterator_category std::__iterator_category<char const*>(char const* const&) [52]
+-----------------------------------------------
+                0.00    0.00      12/12          Poquer::GetMaiorAposta(int*, int) [56]
+[53]     0.0    0.00    0.00      12         std::enable_if<std::__and_<std::__not_<std::__is_tuple_like<int> >, std::is_move_constructible<int>, std::is_move_assignable<int> >::value, void>::type std::swap<int>(int&, int&) [53]
+                0.00    0.00      36/36          std::remove_reference<int&>::type&& std::move<int&>(int&) [37]
+-----------------------------------------------
+                0.00    0.00      12/12          void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag) [48]
+[54]     0.0    0.00    0.00      12         std::iterator_traits<char const*>::difference_type std::distance<char const*>(char const*, char const*) [54]
+                0.00    0.00      12/12          std::iterator_traits<char const*>::iterator_category std::__iterator_category<char const*>(char const* const&) [52]
+                0.00    0.00      12/12          std::iterator_traits<char const*>::difference_type std::__distance<char const*>(char const*, char const*, std::random_access_iterator_tag) [51]
+-----------------------------------------------
+                0.00    0.00      10/10          Poquer::IniciarPoquer() [83]
+[55]     0.0    0.00    0.00      10         Jogador::setBlefes(int) [55]
+-----------------------------------------------
+                0.00    0.00       9/9           Poquer::IniciarPoquer() [83]
+[56]     0.0    0.00    0.00       9         Poquer::GetMaiorAposta(int*, int) [56]
+                0.00    0.00      12/12          std::enable_if<std::__and_<std::__not_<std::__is_tuple_like<int> >, std::is_move_constructible<int>, std::is_move_assignable<int> >::value, void>::type std::swap<int>(int&, int&) [53]
+-----------------------------------------------
+                0.00    0.00       7/7           std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&, char const*) [58]
+[57]     0.0    0.00    0.00       7         std::remove_reference<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>::type&& std::move<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&) [57]
+-----------------------------------------------
+                0.00    0.00       7/7           Rodada::getWinners[abi:cxx11](int) [63]
+[58]     0.0    0.00    0.00       7         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&, char const*) [58]
+                0.00    0.00       7/7           std::remove_reference<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>::type&& std::move<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&) [57]
+-----------------------------------------------
+                0.00    0.00       6/6           Poquer::IniciarPoquer() [83]
+[59]     0.0    0.00    0.00       6         Poquer::RetiraPingo(int, int, Jogador*) [59]
+                0.00    0.00      30/160         Jogador::getValor() [15]
+                0.00    0.00      30/64          Jogador::setValor(int) [28]
+-----------------------------------------------
+                0.00    0.00       6/6           Poquer::IniciarPoquer() [83]
+[60]     0.0    0.00    0.00       6         Poquer::getTipoJogada[abi:cxx11](int) [60]
+                0.00    0.00       6/12          std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<std::allocator<char> >(char const*, std::allocator<char> const&) [50]
+-----------------------------------------------
+                0.00    0.00       6/6           Poquer::IniciarPoquer() [83]
+[61]     0.0    0.00    0.00       6         Poquer::OrdenaVencedores(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, int) [61]
+                0.00    0.00       1/1           bool std::operator><char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [91]
+-----------------------------------------------
+                0.00    0.00       6/6           Poquer::IniciarPoquer() [83]
+[62]     0.0    0.00    0.00       6         Poquer::GetNumeroVencedores(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) [62]
+                0.00    0.00       6/6           std::operator|(std::_Ios_Openmode, std::_Ios_Openmode) [67]
+-----------------------------------------------
+                0.00    0.00       6/6           Poquer::IniciarPoquer() [83]
+[63]     0.0    0.00    0.00       6         Rodada::getWinners[abi:cxx11](int) [63]
+                0.00    0.00      72/78          Jogador::getMao() [27]
+                0.00    0.00      72/78          Mao::tipoJogada() [22]
+                0.00    0.00       8/20          std::enable_if<std::__and_<std::__not_<std::__is_tuple_like<Jogador> >, std::is_move_constructible<Jogador>, std::is_move_assignable<Jogador> >::value, void>::type std::swap<Jogador>(Jogador&, Jogador&) [43]
+                0.00    0.00       7/160         Jogador::getNome[abi:cxx11]() [14]
+                0.00    0.00       7/7           std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&, char const*) [58]
+                0.00    0.00       6/12          std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<std::allocator<char> >(char const*, std::allocator<char> const&) [50]
+-----------------------------------------------
+                0.00    0.00       6/6           Poquer::IniciarPoquer() [83]
+[64]     0.0    0.00    0.00       6         Rodada::setRodada(Jogador*, int) [64]
+                0.00    0.00      17/44          Jogador::operator=(Jogador const&) [35]
+-----------------------------------------------
+                0.00    0.00       6/6           Poquer::IniciarPoquer() [83]
+[65]     0.0    0.00    0.00       6         Rodada::Rodada() [65]
+                0.00    0.00      48/58          Jogador::Jogador() [32]
+-----------------------------------------------
+                0.00    0.00       6/6           Poquer::IniciarPoquer() [83]
+[66]     0.0    0.00    0.00       6         Rodada::~Rodada() [66]
+                0.00    0.00      48/83          Jogador::~Jogador() [21]
+-----------------------------------------------
+                0.00    0.00       6/6           Poquer::GetNumeroVencedores(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) [62]
+[67]     0.0    0.00    0.00       6         std::operator|(std::_Ios_Openmode, std::_Ios_Openmode) [67]
+-----------------------------------------------
+                0.00    0.00       5/5           Poquer::IniciarPoquer() [83]
+[68]     0.0    0.00    0.00       5         Jogador::Jogador(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, double, Mao) [68]
+                0.00    0.00       5/63          Mao::Mao() [29]
+-----------------------------------------------
+                0.00    0.00       1/2           std::operator&=(std::_Ios_Fmtflags&, std::_Ios_Fmtflags) [89]
+                0.00    0.00       1/2           std::ios_base::setf(std::_Ios_Fmtflags, std::_Ios_Fmtflags) [87]
+[69]     0.0    0.00    0.00       2         std::operator&(std::_Ios_Fmtflags, std::_Ios_Fmtflags) [69]
+-----------------------------------------------
+                0.00    0.00       1/1           __libc_csu_init [103]
+[70]     0.0    0.00    0.00       1         _GLOBAL__sub_I__ZN3MaoC2Ev [70]
+                0.00    0.00       1/1           __static_initialization_and_destruction_0(int, int) [77]
+-----------------------------------------------
+                0.00    0.00       1/1           __libc_csu_init [103]
+[71]     0.0    0.00    0.00       1         _GLOBAL__sub_I__ZN5CartaC2Ev [71]
+                0.00    0.00       1/1           __static_initialization_and_destruction_0(int, int) [78]
+-----------------------------------------------
+                0.00    0.00       1/1           __libc_csu_init [103]
+[72]     0.0    0.00    0.00       1         _GLOBAL__sub_I__ZN6RodadaC2Ev [72]
+                0.00    0.00       1/1           __static_initialization_and_destruction_0(int, int) [79]
+-----------------------------------------------
+                0.00    0.00       1/1           __libc_csu_init [103]
+[73]     0.0    0.00    0.00       1         _GLOBAL__sub_I__ZN7JogadorC2Ev [73]
+                0.00    0.00       1/1           __static_initialization_and_destruction_0(int, int) [81]
+-----------------------------------------------
+                0.00    0.00       1/1           __libc_csu_init [103]
+[74]     0.0    0.00    0.00       1         _GLOBAL__sub_I_main [74]
+                0.00    0.00       1/1           __static_initialization_and_destruction_0(int, int) [80]
+-----------------------------------------------
+                0.00    0.00       1/1           __libc_csu_init [103]
+[75]     0.0    0.00    0.00       1         _GLOBAL__sub_I_rodada_valida [75]
+                0.00    0.00       1/1           __static_initialization_and_destruction_0(int, int) [76]
+-----------------------------------------------
+                0.00    0.00       1/1           _GLOBAL__sub_I_rodada_valida [75]
+[76]     0.0    0.00    0.00       1         __static_initialization_and_destruction_0(int, int) [76]
+-----------------------------------------------
+                0.00    0.00       1/1           _GLOBAL__sub_I__ZN3MaoC2Ev [70]
+[77]     0.0    0.00    0.00       1         __static_initialization_and_destruction_0(int, int) [77]
+-----------------------------------------------
+                0.00    0.00       1/1           _GLOBAL__sub_I__ZN5CartaC2Ev [71]
+[78]     0.0    0.00    0.00       1         __static_initialization_and_destruction_0(int, int) [78]
+-----------------------------------------------
+                0.00    0.00       1/1           _GLOBAL__sub_I__ZN6RodadaC2Ev [72]
+[79]     0.0    0.00    0.00       1         __static_initialization_and_destruction_0(int, int) [79]
+-----------------------------------------------
+                0.00    0.00       1/1           _GLOBAL__sub_I_main [74]
+[80]     0.0    0.00    0.00       1         __static_initialization_and_destruction_0(int, int) [80]
+-----------------------------------------------
+                0.00    0.00       1/1           _GLOBAL__sub_I__ZN7JogadorC2Ev [73]
+[81]     0.0    0.00    0.00       1         __static_initialization_and_destruction_0(int, int) [81]
+-----------------------------------------------
+                0.00    0.00       1/1           Poquer::IniciarPoquer() [83]
+[82]     0.0    0.00    0.00       1         Poquer::OrdenaBlefes(Jogador*) [82]
+                0.00    0.00      20/25          Jogador::getBlefes() [41]
+                0.00    0.00       5/20          std::enable_if<std::__and_<std::__not_<std::__is_tuple_like<Jogador> >, std::is_move_constructible<Jogador>, std::is_move_assignable<Jogador> >::value, void>::type std::swap<Jogador>(Jogador&, Jogador&) [43]
+-----------------------------------------------
+                0.00    0.00       1/1           main [6]
+[83]     0.0    0.00    0.00       1         Poquer::IniciarPoquer() [83]
+                0.00    0.00     153/160         Jogador::getNome[abi:cxx11]() [14]
+                0.00    0.00     125/565         Carta::Carta() [10]
+                0.00    0.00     125/125         Carta::Carta(int, char) [19]
+                0.00    0.00     115/115         __gnu_cxx::__enable_if<std::__is_char<char>::__value, bool>::__type std::operator==<char>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [20]
+                0.00    0.00     110/160         Jogador::getValor() [15]
+                0.00    0.00      57/57          Jogador::setAposta(int) [33]
+                0.00    0.00      34/64          Jogador::setValor(int) [28]
+                0.00    0.00      28/28          Jogador::getAposta() [38]
+                0.00    0.00      27/44          Jogador::operator=(Jogador const&) [35]
+                0.00    0.00      25/25          Mao::Mao(Carta*) [40]
+                0.00    0.00      25/25          Mao::OrdenaMao() [39]
+                0.00    0.00      17/17          Jogador::setMao(Mao) [44]
+                0.00    0.00      15/83          Jogador::~Jogador() [21]
+                0.00    0.00      10/58          Jogador::Jogador() [32]
+                0.00    0.00      10/10          Jogador::setBlefes(int) [55]
+                0.00    0.00       9/9           Poquer::GetMaiorAposta(int*, int) [56]
+                0.00    0.00       6/6           Poquer::RetiraPingo(int, int, Jogador*) [59]
+                0.00    0.00       6/6           Rodada::Rodada() [65]
+                0.00    0.00       6/6           Rodada::setRodada(Jogador*, int) [64]
+                0.00    0.00       6/6           Rodada::getWinners[abi:cxx11](int) [63]
+                0.00    0.00       6/6           Poquer::GetNumeroVencedores(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) [62]
+                0.00    0.00       6/6           Poquer::OrdenaVencedores(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, int) [61]
+                0.00    0.00       6/78          Jogador::getMao() [27]
+                0.00    0.00       6/78          Mao::tipoJogada() [22]
+                0.00    0.00       6/6           Poquer::getTipoJogada[abi:cxx11](int) [60]
+                0.00    0.00       6/6           Rodada::~Rodada() [66]
+                0.00    0.00       5/5           Jogador::Jogador(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, double, Mao) [68]
+                0.00    0.00       5/25          Jogador::getBlefes() [41]
+                0.00    0.00       1/1           Poquer::OrdenaJogadores(Jogador*) [84]
+                0.00    0.00       1/1           Poquer::OrdenaBlefes(Jogador*) [82]
+-----------------------------------------------
+                0.00    0.00       1/1           Poquer::IniciarPoquer() [83]
+[84]     0.0    0.00    0.00       1         Poquer::OrdenaJogadores(Jogador*) [84]
+                0.00    0.00      20/160         Jogador::getValor() [15]
+                0.00    0.00       7/20          std::enable_if<std::__and_<std::__not_<std::__is_tuple_like<Jogador> >, std::is_move_constructible<Jogador>, std::is_move_assignable<Jogador> >::value, void>::type std::swap<Jogador>(Jogador&, Jogador&) [43]
+-----------------------------------------------
+                0.00    0.00       1/1           main [6]
+[85]     0.0    0.00    0.00       1         Poquer::Poquer() [85]
+-----------------------------------------------
+                0.00    0.00       1/1           main [6]
+[86]     0.0    0.00    0.00       1         Poquer::~Poquer() [86]
+-----------------------------------------------
+                0.00    0.00       1/1           std::fixed(std::ios_base&) [99]
+[87]     0.0    0.00    0.00       1         std::ios_base::setf(std::_Ios_Fmtflags, std::_Ios_Fmtflags) [87]
+                0.00    0.00       1/1           std::operator~(std::_Ios_Fmtflags) [90]
+                0.00    0.00       1/1           std::operator&=(std::_Ios_Fmtflags&, std::_Ios_Fmtflags) [89]
+                0.00    0.00       1/2           std::operator&(std::_Ios_Fmtflags, std::_Ios_Fmtflags) [69]
+                0.00    0.00       1/1           std::operator|=(std::_Ios_Fmtflags&, std::_Ios_Fmtflags) [92]
+-----------------------------------------------
+                0.00    0.00       1/1           main [6]
+[88]     0.0    0.00    0.00       1         std::setprecision(int) [88]
+-----------------------------------------------
+                0.00    0.00       1/1           std::ios_base::setf(std::_Ios_Fmtflags, std::_Ios_Fmtflags) [87]
+[89]     0.0    0.00    0.00       1         std::operator&=(std::_Ios_Fmtflags&, std::_Ios_Fmtflags) [89]
+                0.00    0.00       1/2           std::operator&(std::_Ios_Fmtflags, std::_Ios_Fmtflags) [69]
+-----------------------------------------------
+                0.00    0.00       1/1           std::ios_base::setf(std::_Ios_Fmtflags, std::_Ios_Fmtflags) [87]
+[90]     0.0    0.00    0.00       1         std::operator~(std::_Ios_Fmtflags) [90]
+-----------------------------------------------
+                0.00    0.00       1/1           Poquer::OrdenaVencedores(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, int) [61]
+[91]     0.0    0.00    0.00       1         bool std::operator><char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [91]
+-----------------------------------------------
+                0.00    0.00       1/1           std::ios_base::setf(std::_Ios_Fmtflags, std::_Ios_Fmtflags) [87]
+[92]     0.0    0.00    0.00       1         std::operator|=(std::_Ios_Fmtflags&, std::_Ios_Fmtflags) [92]
+                0.00    0.00       1/1           std::operator|(std::_Ios_Fmtflags, std::_Ios_Fmtflags) [93]
+-----------------------------------------------
+                0.00    0.00       1/1           std::operator|=(std::_Ios_Fmtflags&, std::_Ios_Fmtflags) [92]
+[93]     0.0    0.00    0.00       1         std::operator|(std::_Ios_Fmtflags, std::_Ios_Fmtflags) [93]
+-----------------------------------------------
+
+ This table describes the call tree of the program, and was sorted by
+ the total amount of time spent in each function and its children.
+
+ Each entry in this table consists of several lines.  The line with the
+ index number at the left hand margin lists the current function.
+ The lines above it list the functions that called this function,
+ and the lines below it list the functions this one called.
+ This line lists:
+     index	A unique number given to each element of the table.
+		Index numbers are sorted numerically.
+		The index number is printed next to every function name so
+		it is easier to look up where the function is in the table.
+
+     % time	This is the percentage of the `total' time that was spent
+		in this function and its children.  Note that due to
+		different viewpoints, functions excluded by options, etc,
+		these numbers will NOT add up to 100%.
+
+     self	This is the total amount of time spent in this function.
+
+     children	This is the total amount of time propagated into this
+		function by its children.
+
+     called	This is the number of times the function was called.
+		If the function called itself recursively, the number
+		only includes non-recursive calls, and is followed by
+		a `+' and the number of recursive calls.
+
+     name	The name of the current function.  The index number is
+		printed after it.  If the function is a member of a
+		cycle, the cycle number is printed between the
+		function's name and the index number.
+
+
+ For the function's parents, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the function into this parent.
+
+     children	This is the amount of time that was propagated from
+		the function's children into this parent.
+
+     called	This is the number of times this parent called the
+		function `/' the total number of times the function
+		was called.  Recursive calls to the function are not
+		included in the number after the `/'.
+
+     name	This is the name of the parent.  The parent's index
+		number is printed after it.  If the parent is a
+		member of a cycle, the cycle number is printed between
+		the name and the index number.
+
+ If the parents of the function cannot be determined, the word
+ `<spontaneous>' is printed in the `name' field, and all the other
+ fields are blank.
+
+ For the function's children, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the child into the function.
+
+     children	This is the amount of time that was propagated from the
+		child's children to the function.
+
+     called	This is the number of times the function called
+		this child `/' the total number of times the child
+		was called.  Recursive calls by the child are not
+		listed in the number after the `/'.
+
+     name	This is the name of the child.  The child's index
+		number is printed after it.  If the child is a
+		member of a cycle, the cycle number is printed
+		between the name and the index number.
+
+ If there are any cycles (circles) in the call graph, there is an
+ entry for the cycle-as-a-whole.  This entry shows who called the
+ cycle (as parents) and the members of the cycle (as children.)
+ The `+' recursive calls entry shows the number of function calls that
+ were internal to the cycle, and the calls entry for each member shows,
+ for that member, how many times it was called from other members of
+ the cycle.
+
+Copyright (C) 2012-2020 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+Index by function name
+
+  [70] _GLOBAL__sub_I__ZN3MaoC2Ev [59] Poquer::RetiraPingo(int, int, Jogador*) [45] bool __gnu_cxx::__is_null_pointer<char const>(char const*)
+  [71] _GLOBAL__sub_I__ZN5CartaC2Ev [82] Poquer::OrdenaBlefes(Jogador*) [46] std::char_traits<char>::length(char const*)
+  [72] _GLOBAL__sub_I__ZN6RodadaC2Ev [83] Poquer::IniciarPoquer() [30] std::char_traits<char>::compare(char const*, char const*, unsigned long)
+  [73] _GLOBAL__sub_I__ZN7JogadorC2Ev [60] Poquer::getTipoJogada[abi:cxx11](int) [47] void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*)
+  [74] _GLOBAL__sub_I_main    [56] Poquer::GetMaiorAposta(int*, int) [48] void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag)
+  [75] _GLOBAL__sub_I_rodada_valida [84] Poquer::OrdenaJogadores(Jogador*) [49] void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct_aux<char const*>(char const*, char const*, std::__false_type)
+  [76] __static_initialization_and_destruction_0(int, int) [61] Poquer::OrdenaVencedores(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, int) [50] std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<std::allocator<char> >(char const*, std::allocator<char> const&)
+  [77] __static_initialization_and_destruction_0(int, int) [62] Poquer::GetNumeroVencedores(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) [87] std::ios_base::setf(std::_Ios_Fmtflags, std::_Ios_Fmtflags)
+  [78] __static_initialization_and_destruction_0(int, int) [85] Poquer::Poquer() [51] std::iterator_traits<char const*>::difference_type std::__distance<char const*>(char const*, char const*, std::random_access_iterator_tag)
+  [79] __static_initialization_and_destruction_0(int, int) [86] Poquer::~Poquer() [88] std::setprecision(int)
+  [80] __static_initialization_and_destruction_0(int, int) [63] Rodada::getWinners[abi:cxx11](int) [52] std::iterator_traits<char const*>::iterator_category std::__iterator_category<char const*>(char const* const&)
+  [81] __static_initialization_and_destruction_0(int, int) [64] Rodada::setRodada(Jogador*, int) [11] std::remove_reference<Carta&>::type&& std::move<Carta&>(Carta&)
+  [22] Mao::tipoJogada()      [65] Rodada::Rodada()       [31] std::remove_reference<Jogador&>::type&& std::move<Jogador&>(Jogador&)
+  [23] Mao::fourOfAKind()     [66] Rodada::~Rodada()      [57] std::remove_reference<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>::type&& std::move<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)
+  [17] Mao::threeOfAKind()    [27] Jogador::getMao()      [37] std::remove_reference<int&>::type&& std::move<int&>(int&)
+  [24] Mao::straightFlush()   [44] Jogador::setMao(Mao)   [18] std::enable_if<std::__and_<std::__not_<std::__is_tuple_like<Carta> >, std::is_move_constructible<Carta>, std::is_move_assignable<Carta> >::value, void>::type std::swap<Carta>(Carta&, Carta&)
+  [25] Mao::royalStraightFlush() [14] Jogador::getNome[abi:cxx11]() [43] std::enable_if<std::__and_<std::__not_<std::__is_tuple_like<Jogador> >, std::is_move_constructible<Jogador>, std::is_move_assignable<Jogador> >::value, void>::type std::swap<Jogador>(Jogador&, Jogador&)
+  [13] Mao::flush()           [15] Jogador::getValor()    [53] std::enable_if<std::__and_<std::__not_<std::__is_tuple_like<int> >, std::is_move_constructible<int>, std::is_move_assignable<int> >::value, void>::type std::swap<int>(int&, int&)
+  [12] Mao::onePair()         [28] Jogador::setValor(int) [54] std::iterator_traits<char const*>::difference_type std::distance<char const*>(char const*, char const*)
+  [16] Mao::straight()        [38] Jogador::getAposta()   [89] std::operator&=(std::_Ios_Fmtflags&, std::_Ios_Fmtflags)
+  [34] Mao::twoPairs()        [41] Jogador::getBlefes()   [69] std::operator&(std::_Ios_Fmtflags, std::_Ios_Fmtflags)
+  [39] Mao::OrdenaMao()       [33] Jogador::setAposta(int) [90] std::operator~(std::_Ios_Fmtflags)
+  [26] Mao::fullHouse()       [55] Jogador::setBlefes(int) [20] __gnu_cxx::__enable_if<std::__is_char<char>::__value, bool>::__type std::operator==<char>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+  [40] Mao::Mao(Carta*)       [42] Jogador::Jogador(Jogador&&) [91] bool std::operator><char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+  [29] Mao::Mao()             [68] Jogador::Jogador(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, double, Mao) [92] std::operator|=(std::_Ios_Fmtflags&, std::_Ios_Fmtflags)
+   [9] Carta::getNaipe()      [32] Jogador::Jogador()     [93] std::operator|(std::_Ios_Fmtflags, std::_Ios_Fmtflags)
+   [8] Carta::getNumero()     [21] Jogador::~Jogador()    [67] std::operator|(std::_Ios_Openmode, std::_Ios_Openmode)
+  [19] Carta::Carta(int, char) [36] Jogador::operator=(Jogador&&) [58] std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&, char const*)
+  [10] Carta::Carta()         [35] Jogador::operator=(Jogador const&)
